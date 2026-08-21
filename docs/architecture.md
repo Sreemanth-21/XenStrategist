@@ -104,3 +104,4 @@ Below is the orchestration lifecycle of a case, illustrating the Hub-and-Spoke i
 ### 3. Separation of Knowledge & Interaction Collections
 *   **Decision**: Store core playbooks in a `knowledge_base` Chroma DB collection and human decisions in a separate `interaction_history` collection.
 *   **Rationale**: Decoupling prevents historical execution data from diluting official corporate playbook retrieval, while still enabling the "Memory Diff" context comparison panel in the user interface.
+*   
