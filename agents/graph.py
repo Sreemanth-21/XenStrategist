@@ -3,7 +3,7 @@ from langgraph.graph import StateGraph, START, END
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.types import Command
 
-# State Schema contract
+# State Schema contracts
 class PulseState(TypedDict):
     case_id: str
     raw_input: str                  # raw CRM note / transcript text
